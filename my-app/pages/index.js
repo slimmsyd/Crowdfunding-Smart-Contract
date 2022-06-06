@@ -158,7 +158,7 @@ const renderLoading = () => {
         </div>
      
         <div className = {styles.buttonContainer}>
-          <label for = "EthAmount">
+          <label >
             <input
               id = "fund"
               type = "number"
