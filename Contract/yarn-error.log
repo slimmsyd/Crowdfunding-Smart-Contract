@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ssand\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev @typechain/ethers-v5 @typechain/hardhat @types/chai @types/node @types/mocha ts-node typechain typescript
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\ssand\.local\share\solana\install\active_release\bin;C:\Users\ssand\AppData\Local\Microsoft\WindowsApps;;C:\Users\ssand\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ssand\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Code Projects\NFTCONTRACTS\Contract\node_modules\keccak\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "nftcontracts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.6",
+      "@nomiclabs/hardhat-etherscan": "^3.0.3",
+      "@nomiclabs/hardhat-waffle": "^2.0.3",
+      "@typechain/ethers-v5": "^10.0.0",
+      "@typechain/hardhat": "^6.0.0",
+      "@types/chai": "^4.3.1",
+      "@types/mocha": "^9.1.1",
+      "chai": "^4.3.6",
+      "ethereum-waffle": "^3.4.4",
+      "ethers": "^5.6.7",
+      "hardhat": "^2.9.6",
+      "ts-node": "^10.8.0",
+      "typechain": "^8.0.0",
+      "typescript": "^4.7.2"
+    },
+    "dependencies": {
+      "@chainlink/contracts": "^0.4.1",
+      "@openzeppelin/contracts": "^4.6.0",
+      "dotenv": "^16.0.1",
+      "hardhat-gas-reporter": "^1.0.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
